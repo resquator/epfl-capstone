@@ -1,0 +1,117 @@
+2021-05-07 10:25:32,976 | INFO: I start to run your Notebook ! -- Good Luck :-) 
+2021-05-07 10:25:33,092 | INFO: Number of flows 14820 read from the source file with 9 columns. After combining duplicates.
+2021-05-07 10:25:33,290 | INFO: Number of returns 14762 read from the source file with 24 columns.
+2021-05-07 10:25:33,392 | INFO: Merge Flows and performances on SRC_UID + EOM. Method = inner to keep only joined rows.
+2021-05-07 10:25:33,392 | INFO: Number of merged rows 14641 read from the source file with 31 columns.
+2021-05-07 10:25:33,549 | INFO: Number of documents rows 10635 read from the source file with 3 columns.
+2021-05-07 10:25:33,646 | INFO: Merge time series (ts) with documents. Method applied is left-join to keep the full ts.
+2021-05-07 10:25:33,809 | INFO: Number of PSU rows 9155 read from the source file with 6 columns.
+2021-05-07 10:25:33,893 | INFO: Merge the PSU table with Time Series (ts). Method = left to keep all ts rows.
+2021-05-07 10:25:33,993 | INFO: Number of managers rows 88 read from the source file with 2 columns.
+2021-05-07 10:25:34,062 | INFO: Merge the managers table with the time series. Keep all time series rows and join manager experience
+2021-05-07 10:25:34,147 | INFO: Number of feews rows 97 read from the source file with 11 columns.
+2021-05-07 10:25:34,247 | INFO: Merge te fees table with the time series. Funds has a unique fees. Those without fees will be aligned with an average of the strategy in EDA
+2021-05-07 10:25:34,609 | INFO: Merge the events indicators table with the time series.
+2021-05-07 10:25:34,663 | INFO: SRC_UID                                 int64
+EOM                            datetime64[ns]
+QUANTITY                                int64
+IN (USD)                                int64
+OUT (USD)                               int64
+NET (USD)                               int64
+AUM (USD)                               int64
+ASSET_NAME                             object
+PRODUCT_STRATEGY                       object
+BENCH_PERF_1_MONTH                    float64
+BENCH_PERF_1_YEAR                     float64
+BENCH_PERF_3_MONTH                    float64
+BENCH_PERF_6_MONTH                    float64
+BENCH_VOL_1_MONTH                     float64
+BENCH_VOL_3_MONTH                     float64
+BENCH_VOL_6_MONTH                     float64
+BENCH_VOLATILITY_1_YEAR               float64
+NAV_PERF_1_MONTH                      float64
+NAV_PERF_1_YEAR                       float64
+NAV_PERF_3_MONTH                      float64
+NAV_PERF_6_MONTH                      float64
+NAV_VOL_1_MONTH                       float64
+NAV_VOL_3_MONTH                       float64
+NAV_VOL_6_MONTH                       float64
+NAV_VOLATILITY_1_YEAR                 float64
+BENCH_VOL_SINCE_INCEPT                float64
+NAV_PERF_COMPOUND_CREATION            float64
+NAV_VOL_SINCE_INCEPT                  float64
+FUND_SIZE                             float64
+SUB_FUNDS_SHARE_PARTS                 float64
+SUB_FUNDS_SHARE_SIZE_SF_CCY           float64
+DOWNLOADED_DOCUMENTS                  float64
+WEIGHTED                              float64
+COUNTRY                                object
+PSU                                    object
+PSU_SCORE                             float64
+EXPERIENCE                            float64
+FUND_NAME                              object
+ADMINSTRATION_FEES                    float64
+MANAGEMENT_FEES                       float64
+MULTI_MANAGER_STRUCTURE                 int64
+SOFTCLOSING                           float64
+RISK_LEVEL                             object
+DATE_SHARE                             object
+CNT_SHARE                               int64
+STRATEGY_CAPABILITY                    object
+IS_STRATEGIC                           object
+POSITIVE_RFP                           object
+EVENT_IMPACT                          float64
+dtype: object
+2021-05-07 10:25:34,663 | INFO: COUNT NULL VALUES IN (ts)
+2021-05-07 10:25:34,679 | INFO: SRC_UID                           0
+EOM                               0
+QUANTITY                          0
+IN (USD)                          0
+OUT (USD)                         0
+NET (USD)                         0
+AUM (USD)                         0
+ASSET_NAME                        0
+PRODUCT_STRATEGY                  0
+BENCH_PERF_1_MONTH              421
+BENCH_PERF_1_YEAR               691
+BENCH_PERF_3_MONTH              469
+BENCH_PERF_6_MONTH              541
+BENCH_VOL_1_MONTH              2854
+BENCH_VOL_3_MONTH               531
+BENCH_VOL_6_MONTH               531
+BENCH_VOLATILITY_1_YEAR         721
+NAV_PERF_1_MONTH                 20
+NAV_PERF_1_YEAR                 296
+NAV_PERF_3_MONTH                 68
+NAV_PERF_6_MONTH                142
+NAV_VOL_1_MONTH                2535
+NAV_VOL_3_MONTH                 132
+NAV_VOL_6_MONTH                 134
+NAV_VOLATILITY_1_YEAR           331
+BENCH_VOL_SINCE_INCEPT          509
+NAV_PERF_COMPOUND_CREATION      283
+NAV_VOL_SINCE_INCEPT             20
+FUND_SIZE                         0
+SUB_FUNDS_SHARE_PARTS             0
+SUB_FUNDS_SHARE_SIZE_SF_CCY     848
+DOWNLOADED_DOCUMENTS           3059
+WEIGHTED                       4363
+COUNTRY                        4363
+PSU                            4363
+PSU_SCORE                      4447
+EXPERIENCE                     1606
+FUND_NAME                         0
+ADMINSTRATION_FEES                0
+MANAGEMENT_FEES                   0
+MULTI_MANAGER_STRUCTURE           0
+SOFTCLOSING                      40
+RISK_LEVEL                        0
+DATE_SHARE                        0
+CNT_SHARE                         0
+STRATEGY_CAPABILITY               0
+IS_STRATEGIC                      0
+POSITIVE_RFP                   7765
+EVENT_IMPACT                   3895
+dtype: int64
+2021-05-07 10:25:34,710 | WARNING: No columns to delete in (ts)
+2021-05-07 10:25:35,533 | INFO: 03-create_timeseries ended with success !

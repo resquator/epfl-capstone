@@ -1,0 +1,251 @@
+2021-05-07 11:38:28,796 | INFO: 
+2021-05-07 11:38:28,796 | INFO: ***************************************************************************************************
+2021-05-07 11:38:28,796 | INFO: ***                                                                                             ***
+2021-05-07 11:38:28,797 | INFO: ***   NEW RUN                                                                                   ***
+2021-05-07 11:38:28,797 | INFO: ***                                                                                             ***
+2021-05-07 11:38:28,797 | INFO: ***************************************************************************************************
+2021-05-07 11:38:33,787 | INFO: 8902 rows and 67 columns read in the CSV file
+2021-05-07 11:39:05,433 | INFO: index 0 - dico value for key cols is ['NET_FLOWS', 'AUM']
+2021-05-07 11:39:05,433 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:39:05,433 | INFO: index 2 - dico value for key period is [2, 3, 4]
+2021-05-07 11:39:05,433 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:06,820 | INFO: index 0 - dico value for key cols is ['IN_FLOWS']
+2021-05-07 11:39:06,820 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:39:06,820 | INFO: index 2 - dico value for key period is [2, 4]
+2021-05-07 11:39:06,820 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:07,290 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE']
+2021-05-07 11:39:07,290 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:39:07,290 | INFO: index 2 - dico value for key period is [2, 4]
+2021-05-07 11:39:07,290 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:07,779 | INFO: index 0 - dico value for key cols is ['EVENT_IMPACT']
+2021-05-07 11:39:07,779 | INFO: index 1 - dico value for key method is ewm
+2021-05-07 11:39:07,779 | INFO: index 2 - dico value for key period is [2, 3]
+2021-05-07 11:39:07,779 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:08,221 | INFO: index 0 - dico value for key cols is ['NET_FLOWS', 'AUM']
+2021-05-07 11:39:08,221 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:39:08,221 | INFO: index 2 - dico value for key period is [2, 3, 4]
+2021-05-07 11:39:08,221 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:09,482 | INFO: index 0 - dico value for key cols is ['IN_FLOWS']
+2021-05-07 11:39:09,482 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:39:09,482 | INFO: index 2 - dico value for key period is [2, 4]
+2021-05-07 11:39:09,482 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:09,948 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE']
+2021-05-07 11:39:09,948 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:39:09,948 | INFO: index 2 - dico value for key period is [2, 4]
+2021-05-07 11:39:09,948 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:10,400 | INFO: index 0 - dico value for key cols is ['EVENT_IMPACT']
+2021-05-07 11:39:10,400 | INFO: index 1 - dico value for key method is ewm
+2021-05-07 11:39:10,400 | INFO: index 2 - dico value for key period is [2, 3]
+2021-05-07 11:39:10,400 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:10,916 | INFO: index 0 - dico value for key cols is ['NET_FLOWS', 'AUM']
+2021-05-07 11:39:10,916 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:39:10,916 | INFO: index 2 - dico value for key period is [2, 3, 4]
+2021-05-07 11:39:10,916 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:12,208 | INFO: index 0 - dico value for key cols is ['IN_FLOWS']
+2021-05-07 11:39:12,208 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:39:12,208 | INFO: index 2 - dico value for key period is [2, 4]
+2021-05-07 11:39:12,208 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:12,681 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE']
+2021-05-07 11:39:12,681 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:39:12,681 | INFO: index 2 - dico value for key period is [2, 4]
+2021-05-07 11:39:12,681 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:13,127 | INFO: index 0 - dico value for key cols is ['EVENT_IMPACT']
+2021-05-07 11:39:13,127 | INFO: index 1 - dico value for key method is ewm
+2021-05-07 11:39:13,127 | INFO: index 2 - dico value for key period is [2, 3]
+2021-05-07 11:39:13,127 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:28,478 | INFO: index 0 - dico value for key cols is ['NET_FLOWS', 'AUM']
+2021-05-07 11:39:28,479 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:39:28,479 | INFO: index 2 - dico value for key period is [2, 3, 4]
+2021-05-07 11:39:28,479 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:28,538 | INFO: index 0 - dico value for key cols is ['IN_FLOWS']
+2021-05-07 11:39:28,538 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:39:28,538 | INFO: index 2 - dico value for key period is [2, 4]
+2021-05-07 11:39:28,538 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:28,554 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE']
+2021-05-07 11:39:28,554 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:39:28,554 | INFO: index 2 - dico value for key period is [2, 4]
+2021-05-07 11:39:28,554 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:39:28,583 | INFO: index 0 - dico value for key cols is ['EVENT_IMPACT']
+2021-05-07 11:39:28,583 | INFO: index 1 - dico value for key method is ewm
+2021-05-07 11:39:28,583 | INFO: index 2 - dico value for key period is [2, 3]
+2021-05-07 11:39:28,583 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:24,848 | INFO: index 0 - dico value for key cols is ['IN_FLOWS']
+2021-05-07 11:40:24,848 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:40:24,848 | INFO: index 2 - dico value for key period is [2, 3, 6]
+2021-05-07 11:40:24,848 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:25,696 | INFO: index 0 - dico value for key cols is ['OUT_FLOWS']
+2021-05-07 11:40:25,696 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:40:25,696 | INFO: index 2 - dico value for key period is [2, 3, 6]
+2021-05-07 11:40:25,696 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:26,413 | INFO: index 0 - dico value for key cols is ['AUM']
+2021-05-07 11:40:26,413 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:40:26,413 | INFO: index 2 - dico value for key period is [2, 3, 6]
+2021-05-07 11:40:26,413 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:27,171 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE']
+2021-05-07 11:40:27,171 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:27,171 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:27,171 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:27,807 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE_ERROR']
+2021-05-07 11:40:27,807 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:27,807 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:27,807 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:28,454 | INFO: index 0 - dico value for key cols is ['BENCH_VOL_SLOPE']
+2021-05-07 11:40:28,454 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:28,454 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:28,454 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:29,101 | INFO: index 0 - dico value for key cols is ['BENCH_VOL_SLOPE_ERROR']
+2021-05-07 11:40:29,101 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:29,101 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:29,101 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:29,754 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-07 11:40:29,754 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:29,756 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:29,756 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:30,454 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE_ERROR']
+2021-05-07 11:40:30,454 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:30,454 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:30,454 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:31,120 | INFO: index 0 - dico value for key cols is ['NAV_VOL_SLOPE']
+2021-05-07 11:40:31,120 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:31,120 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:31,120 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:31,787 | INFO: index 0 - dico value for key cols is ['NAV_VOL_SLOPE_ERROR']
+2021-05-07 11:40:31,787 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:31,787 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:31,787 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:32,392 | INFO: index 0 - dico value for key cols is ['POSITIVE_RFP']
+2021-05-07 11:40:32,392 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:32,392 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:32,392 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:33,097 | INFO: index 0 - dico value for key cols is ['EVENT_IMPACT']
+2021-05-07 11:40:33,097 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:33,097 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:33,097 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:33,836 | INFO: index 0 - dico value for key cols is ['DOWNLOADED_DOCUMENTS']
+2021-05-07 11:40:33,836 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:33,836 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:33,836 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:34,571 | INFO: index 0 - dico value for key cols is ['PSU_SCORE']
+2021-05-07 11:40:34,571 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:34,571 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:34,571 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:35,320 | INFO: index 0 - dico value for key cols is ['IN_FLOWS']
+2021-05-07 11:40:35,320 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:40:35,320 | INFO: index 2 - dico value for key period is [2, 3, 6]
+2021-05-07 11:40:35,320 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:36,055 | INFO: index 0 - dico value for key cols is ['OUT_FLOWS']
+2021-05-07 11:40:36,055 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:40:36,055 | INFO: index 2 - dico value for key period is [2, 3, 6]
+2021-05-07 11:40:36,055 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:36,723 | INFO: index 0 - dico value for key cols is ['AUM']
+2021-05-07 11:40:36,723 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:40:36,723 | INFO: index 2 - dico value for key period is [2, 3, 6]
+2021-05-07 11:40:36,723 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:37,418 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE']
+2021-05-07 11:40:37,418 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:37,418 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:37,418 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:38,075 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE_ERROR']
+2021-05-07 11:40:38,075 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:38,075 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:38,075 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:38,760 | INFO: index 0 - dico value for key cols is ['BENCH_VOL_SLOPE']
+2021-05-07 11:40:38,760 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:38,760 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:38,760 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:39,378 | INFO: index 0 - dico value for key cols is ['BENCH_VOL_SLOPE_ERROR']
+2021-05-07 11:40:39,378 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:39,378 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:39,378 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:40,011 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-07 11:40:40,011 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:40,011 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:40,011 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:40,638 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE_ERROR']
+2021-05-07 11:40:40,638 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:40,638 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:40,638 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:41,314 | INFO: index 0 - dico value for key cols is ['NAV_VOL_SLOPE']
+2021-05-07 11:40:41,314 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:41,314 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:41,314 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:42,006 | INFO: index 0 - dico value for key cols is ['NAV_VOL_SLOPE_ERROR']
+2021-05-07 11:40:42,006 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:42,006 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:42,006 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:42,611 | INFO: index 0 - dico value for key cols is ['POSITIVE_RFP']
+2021-05-07 11:40:42,611 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:42,611 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:42,611 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:43,331 | INFO: index 0 - dico value for key cols is ['EVENT_IMPACT']
+2021-05-07 11:40:43,331 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:43,332 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:43,332 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:44,101 | INFO: index 0 - dico value for key cols is ['DOWNLOADED_DOCUMENTS']
+2021-05-07 11:40:44,101 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:44,101 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:44,101 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:44,827 | INFO: index 0 - dico value for key cols is ['PSU_SCORE']
+2021-05-07 11:40:44,828 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:44,828 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:44,828 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:47,494 | INFO: index 0 - dico value for key cols is ['IN_FLOWS']
+2021-05-07 11:40:47,494 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:40:47,494 | INFO: index 2 - dico value for key period is [2, 3, 6]
+2021-05-07 11:40:47,494 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:48,120 | INFO: index 0 - dico value for key cols is ['OUT_FLOWS']
+2021-05-07 11:40:48,120 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:40:48,121 | INFO: index 2 - dico value for key period is [2, 3, 6]
+2021-05-07 11:40:48,121 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:48,771 | INFO: index 0 - dico value for key cols is ['AUM']
+2021-05-07 11:40:48,771 | INFO: index 1 - dico value for key method is rolling
+2021-05-07 11:40:48,771 | INFO: index 2 - dico value for key period is [2, 3, 6]
+2021-05-07 11:40:48,771 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:49,438 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE']
+2021-05-07 11:40:49,438 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:49,438 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:49,438 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:50,065 | INFO: index 0 - dico value for key cols is ['BENCH_PERF_SLOPE_ERROR']
+2021-05-07 11:40:50,065 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:50,065 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:50,065 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:50,780 | INFO: index 0 - dico value for key cols is ['BENCH_VOL_SLOPE']
+2021-05-07 11:40:50,780 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:50,780 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:50,780 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:51,444 | INFO: index 0 - dico value for key cols is ['BENCH_VOL_SLOPE_ERROR']
+2021-05-07 11:40:51,444 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:51,444 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:51,444 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:52,093 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-07 11:40:52,093 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:52,093 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:52,093 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:52,699 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE_ERROR']
+2021-05-07 11:40:52,699 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:52,699 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:52,699 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:53,315 | INFO: index 0 - dico value for key cols is ['NAV_VOL_SLOPE']
+2021-05-07 11:40:53,315 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:53,315 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:53,315 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:53,961 | INFO: index 0 - dico value for key cols is ['NAV_VOL_SLOPE_ERROR']
+2021-05-07 11:40:53,961 | INFO: index 1 - dico value for key method is shift
+2021-05-07 11:40:53,961 | INFO: index 2 - dico value for key period is [2, 3, 5]
+2021-05-07 11:40:53,961 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:54,638 | INFO: index 0 - dico value for key cols is ['POSITIVE_RFP']
+2021-05-07 11:40:54,638 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:54,638 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:54,638 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:55,405 | INFO: index 0 - dico value for key cols is ['EVENT_IMPACT']
+2021-05-07 11:40:55,405 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:55,407 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:55,407 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:56,121 | INFO: index 0 - dico value for key cols is ['DOWNLOADED_DOCUMENTS']
+2021-05-07 11:40:56,121 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:56,121 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:56,121 | INFO: index 3 - dico value for key original is False
+2021-05-07 11:40:56,800 | INFO: index 0 - dico value for key cols is ['PSU_SCORE']
+2021-05-07 11:40:56,800 | INFO: index 1 - dico value for key method is expanding
+2021-05-07 11:40:56,800 | INFO: index 2 - dico value for key period is [3, 6, 9]
+2021-05-07 11:40:56,800 | INFO: index 3 - dico value for key original is False

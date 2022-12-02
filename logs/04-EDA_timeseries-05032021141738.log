@@ -1,0 +1,62 @@
+2021-05-03 14:17:38,492 | INFO: I start to run your Notebook ! -- Good Luck :-) It is:  05/03/2021, 14:17:38
+2021-05-03 14:17:38,689 | INFO: TIME SERIES shape9891
+2021-05-03 14:17:38,744 | INFO: Mising value to deal with
+2021-05-03 14:17:38,751 | INFO: SRC_UID                           0
+PRODUCT_STRATEGY                  0
+ASSET_NAME                        0
+FUND_NAME                         0
+STRATEGY_CAPABILITY               0
+IS_STRATEGIC                      0
+EOM                               0
+ADMINSTRATION_FEES                0
+MANAGEMENT_FEES                   0
+MULTI_MANAGER_STRUCTURE           0
+SOFTCLOSING                      40
+RISK_LEVEL                        0
+DATE_SHARE                        0
+CNT_SHARE                         0
+QUANTITY                          0
+IN_FLOWS                          0
+OUT_FLOWS                         0
+NET_FLOWS                         0
+AUM                               0
+BENCH_PERF_1_MONTH              421
+BENCH_PERF_1_YEAR               691
+BENCH_PERF_3_MONTH              469
+BENCH_PERF_6_MONTH              541
+BENCH_VOL_1_MONTH              2854
+BENCH_VOL_3_MONTH               531
+BENCH_VOL_6_MONTH               531
+BENCH_VOLATILITY_1_YEAR         721
+NAV_PERF_1_MONTH                 20
+NAV_PERF_1_YEAR                 296
+NAV_PERF_3_MONTH                 68
+NAV_PERF_6_MONTH                142
+NAV_VOL_1_MONTH                2535
+NAV_VOL_3_MONTH                 132
+NAV_VOL_6_MONTH                 134
+NAV_VOLATILITY_1_YEAR           331
+BENCH_VOL_SINCE_INCEPT          509
+NAV_PERF_COMPOUND_CREATION      283
+NAV_VOL_SINCE_INCEPT             20
+FUND_SIZE                         0
+SUB_FUNDS_SHARE_PARTS             0
+SUB_FUNDS_SHARE_SIZE_SF_CCY     848
+DOWNLOADED_DOCUMENTS           1663
+WEIGHTED                       4363
+COUNTRY                        4363
+PSU                            4363
+PSU_SCORE                      4447
+POSITIVE_RFP                   7456
+EVENT_IMPACT                   3895
+dtype: int64
+2021-05-03 14:17:39,184 | INFO: Columns with BENCHMARK
+2021-05-03 14:17:39,185 | INFO: ['BENCH_PERF_1_MONTH', 'BENCH_PERF_1_YEAR', 'BENCH_PERF_3_MONTH', 'BENCH_PERF_6_MONTH', 'BENCH_VOL_1_MONTH', 'BENCH_VOL_3_MONTH', 'BENCH_VOL_6_MONTH', 'BENCH_VOLATILITY_1_YEAR', 'BENCH_VOL_SINCE_INCEPT']
+2021-05-03 14:17:43,830 | INFO: ts dataset save in csv file with 9891 rows and 46 columns
+2021-05-03 14:17:45,876 | INFO:         FUND_NAME
+TARGET           
+-1.0         3535
+ 0.0         2841
+ 1.0         3515
+2021-05-03 14:17:45,878 | INFO: ts dataset save in csv file with 9891 rows and 51 columns
+2021-05-03 14:22:26,848 | INFO: I start to run your Notebook ! -- Good Luck :-) It is:  05/03/2021, 14:22:26

@@ -1,0 +1,390 @@
+2021-05-03 14:36:15,296 | INFO: 
+2021-05-03 14:36:15,296 | INFO: ***************************************************************************************************
+2021-05-03 14:36:15,296 | INFO: ***                                                                                             ***
+2021-05-03 14:36:15,297 | INFO: ***   NEW RUN                                                                                   ***
+2021-05-03 14:36:15,297 | INFO: ***                                                                                             ***
+2021-05-03 14:36:15,297 | INFO: ***************************************************************************************************
+2021-05-03 14:36:15,297 | INFO: I start to run your Notebook ! -- Good Luck :-) It is:  05/03/2021, 14:36:15
+2021-05-03 14:36:15,429 | INFO: 9891 rows and 57 columns read in the CSV file
+2021-05-03 14:42:55,602 | INFO: After splitting the columns the difference will be my TARGET feature: ['TARGET', 'CHECKED', 'DIFF_FLOWS', 'COMPUTED_FLOWS']
+2021-05-03 14:42:56,756 | WARNING: Unable to drop flows columns
+2021-05-03 14:42:56,878 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'shift', 'period': [1, 2, 3, 6], 'original': True}]
+2021-05-03 14:42:56,878 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:42:56,878 | INFO: Initializing with Columns in X 9
+2021-05-03 14:42:56,879 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:42:56,879 | INFO: index 1 - dico value for key method is shift
+2021-05-03 14:42:56,879 | INFO: index 2 - dico value for key period is [1, 2, 3, 6]
+2021-05-03 14:42:56,879 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:42:56,879 | INFO: (n) periods [1, 2, 3, 6] for the skew method is [0.8, 0.6, 0.3999999999999999, 0.19999999999999996, 0.0]
+2021-05-03 14:42:58,441 | INFO: Columns in X_temp 13
+2021-05-03 14:42:58,442 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-s1', 'NET_FLOWS-s2', 'NET_FLOWS-s3', 'NET_FLOWS-s6'], dtype='object')
+2021-05-03 14:42:58,671 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'rolling', 'period': [1, 2, 3, 6], 'original': True}]
+2021-05-03 14:42:58,671 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:42:58,671 | INFO: Initializing with Columns in X 9
+2021-05-03 14:42:58,672 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:42:58,672 | INFO: index 1 - dico value for key method is rolling
+2021-05-03 14:42:58,672 | INFO: index 2 - dico value for key period is [1, 2, 3, 6]
+2021-05-03 14:42:58,672 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:42:58,672 | INFO: (n) periods [1, 2, 3, 6] for the skew method is [0.8, 0.6, 0.3999999999999999, 0.19999999999999996, 0.0]
+2021-05-03 14:43:00,253 | INFO: Columns in X_temp 13
+2021-05-03 14:43:00,254 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-r1', 'NET_FLOWS-r2', 'NET_FLOWS-r3', 'NET_FLOWS-r6'], dtype='object')
+2021-05-03 14:43:00,494 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'expanding', 'period': [1, 2, 3, 6], 'original': True}]
+2021-05-03 14:43:00,495 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:43:00,495 | INFO: Initializing with Columns in X 9
+2021-05-03 14:43:00,495 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:43:00,496 | INFO: index 1 - dico value for key method is expanding
+2021-05-03 14:43:00,496 | INFO: index 2 - dico value for key period is [1, 2, 3, 6]
+2021-05-03 14:43:00,496 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:43:00,496 | INFO: (n) periods [1, 2, 3, 6] for the skew method is [0.8, 0.6, 0.3999999999999999, 0.19999999999999996, 0.0]
+2021-05-03 14:43:02,076 | INFO: Columns in X_temp 13
+2021-05-03 14:43:02,077 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-x1', 'NET_FLOWS-x2', 'NET_FLOWS-x3', 'NET_FLOWS-x6'], dtype='object')
+2021-05-03 14:43:02,384 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'ewm', 'period': [1, 2, 3, 6], 'original': True}]
+2021-05-03 14:43:02,384 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:43:02,385 | INFO: Initializing with Columns in X 9
+2021-05-03 14:43:02,385 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:43:02,385 | INFO: index 1 - dico value for key method is ewm
+2021-05-03 14:43:02,385 | INFO: index 2 - dico value for key period is [1, 2, 3, 6]
+2021-05-03 14:43:02,385 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:43:02,385 | INFO: (n) periods [1, 2, 3, 6] for the skew method is [0.8, 0.6, 0.3999999999999999, 0.19999999999999996, 0.0]
+2021-05-03 14:43:03,862 | INFO: Columns in X_temp 13
+2021-05-03 14:43:03,863 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-e1', 'NET_FLOWS-e2', 'NET_FLOWS-e3', 'NET_FLOWS-e6'], dtype='object')
+2021-05-03 14:44:45,869 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NAV_PERF_SLOPE'], 'method': 'shift', 'period': [1, 2, 3, 6, 12], 'original': True}]
+2021-05-03 14:44:45,870 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:44:45,870 | INFO: Initializing with Columns in X 62
+2021-05-03 14:44:45,871 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-03 14:44:45,871 | INFO: index 1 - dico value for key method is shift
+2021-05-03 14:44:45,872 | INFO: index 2 - dico value for key period is [1, 2, 3, 6, 12]
+2021-05-03 14:44:45,872 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:44:45,872 | INFO: (n) periods [1, 2, 3, 6, 12] for the skew method is [0.8333333333333334, 0.6666666666666667, 0.5, 0.33333333333333337, 0.16666666666666674, 0.0]
+2021-05-03 14:44:47,757 | INFO: Columns in X_temp 67
+2021-05-03 14:44:47,758 | INFO: New columns added to the dataframe: Index(['NAV_PERF_SLOPE-s1', 'NAV_PERF_SLOPE-s2', 'NAV_PERF_SLOPE-s3',
+       'NAV_PERF_SLOPE-s6', 'NAV_PERF_SLOPE-s12'],
+      dtype='object')
+2021-05-03 14:44:48,019 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NAV_PERF_SLOPE'], 'method': 'rolling', 'period': [1, 2, 3, 6, 12], 'original': True}]
+2021-05-03 14:44:48,019 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:44:48,020 | INFO: Initializing with Columns in X 62
+2021-05-03 14:44:48,021 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-03 14:44:48,022 | INFO: index 1 - dico value for key method is rolling
+2021-05-03 14:44:48,022 | INFO: index 2 - dico value for key period is [1, 2, 3, 6, 12]
+2021-05-03 14:44:48,022 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:44:48,022 | INFO: (n) periods [1, 2, 3, 6, 12] for the skew method is [0.8333333333333334, 0.6666666666666667, 0.5, 0.33333333333333337, 0.16666666666666674, 0.0]
+2021-05-03 14:44:49,949 | INFO: Columns in X_temp 67
+2021-05-03 14:44:49,950 | INFO: New columns added to the dataframe: Index(['NAV_PERF_SLOPE-r1', 'NAV_PERF_SLOPE-r2', 'NAV_PERF_SLOPE-r3',
+       'NAV_PERF_SLOPE-r6', 'NAV_PERF_SLOPE-r12'],
+      dtype='object')
+2021-05-03 14:44:50,274 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NAV_PERF_SLOPE'], 'method': 'expanding', 'period': [1, 2, 3, 6, 12], 'original': True}]
+2021-05-03 14:44:50,275 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:44:50,275 | INFO: Initializing with Columns in X 62
+2021-05-03 14:44:50,277 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-03 14:44:50,277 | INFO: index 1 - dico value for key method is expanding
+2021-05-03 14:44:50,277 | INFO: index 2 - dico value for key period is [1, 2, 3, 6, 12]
+2021-05-03 14:44:50,277 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:44:50,277 | INFO: (n) periods [1, 2, 3, 6, 12] for the skew method is [0.8333333333333334, 0.6666666666666667, 0.5, 0.33333333333333337, 0.16666666666666674, 0.0]
+2021-05-03 14:44:52,200 | INFO: Columns in X_temp 67
+2021-05-03 14:44:52,201 | INFO: New columns added to the dataframe: Index(['NAV_PERF_SLOPE-x1', 'NAV_PERF_SLOPE-x2', 'NAV_PERF_SLOPE-x3',
+       'NAV_PERF_SLOPE-x6', 'NAV_PERF_SLOPE-x12'],
+      dtype='object')
+2021-05-03 14:44:52,625 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NAV_PERF_SLOPE'], 'method': 'ewm', 'period': [1, 2, 3, 6, 12], 'original': True}]
+2021-05-03 14:44:52,625 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:44:52,626 | INFO: Initializing with Columns in X 62
+2021-05-03 14:44:52,627 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-03 14:44:52,627 | INFO: index 1 - dico value for key method is ewm
+2021-05-03 14:44:52,627 | INFO: index 2 - dico value for key period is [1, 2, 3, 6, 12]
+2021-05-03 14:44:52,627 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:44:52,628 | INFO: (n) periods [1, 2, 3, 6, 12] for the skew method is [0.8333333333333334, 0.6666666666666667, 0.5, 0.33333333333333337, 0.16666666666666674, 0.0]
+2021-05-03 14:44:54,402 | INFO: Columns in X_temp 67
+2021-05-03 14:44:54,403 | INFO: New columns added to the dataframe: Index(['NAV_PERF_SLOPE-e1', 'NAV_PERF_SLOPE-e2', 'NAV_PERF_SLOPE-e3',
+       'NAV_PERF_SLOPE-e6', 'NAV_PERF_SLOPE-e12'],
+      dtype='object')
+2021-05-03 14:45:08,212 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['PSU'], 'method': 'rolling', 'period': [1, 2, 3], 'original': True}]
+2021-05-03 14:45:08,213 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:45:08,213 | INFO: Initializing with Columns in X 6
+2021-05-03 14:45:08,214 | INFO: index 0 - dico value for key cols is ['PSU']
+2021-05-03 14:45:08,214 | INFO: index 1 - dico value for key method is rolling
+2021-05-03 14:45:08,214 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:45:08,214 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:45:08,214 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:45:09,402 | INFO: Columns in X_temp 9
+2021-05-03 14:45:09,403 | INFO: New columns added to the dataframe: Index(['PSU-r1', 'PSU-r2', 'PSU-r3'], dtype='object')
+2021-05-03 14:45:09,575 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['PSU'], 'method': 'expanding', 'period': [1, 2, 3], 'original': True}]
+2021-05-03 14:45:09,575 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:45:09,576 | INFO: Initializing with Columns in X 6
+2021-05-03 14:45:09,576 | INFO: index 0 - dico value for key cols is ['PSU']
+2021-05-03 14:45:09,576 | INFO: index 1 - dico value for key method is expanding
+2021-05-03 14:45:09,576 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:45:09,576 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:45:09,576 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:45:10,757 | INFO: Columns in X_temp 9
+2021-05-03 14:45:10,758 | INFO: New columns added to the dataframe: Index(['PSU-x1', 'PSU-x2', 'PSU-x3'], dtype='object')
+2021-05-03 14:45:10,922 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['PSU'], 'method': 'split', 'period': [1, 2, 3], 'original': True}]
+2021-05-03 14:45:10,922 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:45:10,922 | INFO: Initializing with Columns in X 6
+2021-05-03 14:45:10,923 | INFO: index 0 - dico value for key cols is ['PSU']
+2021-05-03 14:45:10,923 | INFO: index 1 - dico value for key method is split
+2021-05-03 14:45:10,923 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:45:10,923 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:45:10,923 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:45:10,945 | INFO: Columns in X_temp 6
+2021-05-03 14:45:10,945 | INFO: New columns added to the dataframe: Index([], dtype='object')
+2021-05-03 14:45:11,109 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['PSU'], 'method': 'ewm', 'period': [1, 2, 3], 'original': True}]
+2021-05-03 14:45:11,109 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:45:11,109 | INFO: Initializing with Columns in X 6
+2021-05-03 14:45:11,110 | INFO: index 0 - dico value for key cols is ['PSU']
+2021-05-03 14:45:11,110 | INFO: index 1 - dico value for key method is ewm
+2021-05-03 14:45:11,110 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:45:11,110 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:45:11,110 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:45:12,224 | INFO: Columns in X_temp 9
+2021-05-03 14:45:12,225 | INFO: New columns added to the dataframe: Index(['PSU-e1', 'PSU-e2', 'PSU-e3'], dtype='object')
+2021-05-03 14:45:14,064 | INFO: Anomaly detected in full dataset
+2021-05-03 14:45:14,065 | INFO:  1    8902
+-1     989
+Name: anomaly, dtype: int64
+2021-05-03 14:45:16,038 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'shift', 'period': [1, 2, 3], 'original': True}, {'cols': ['AUM'], 'method': 'rolling', 'period': [2, 5, 7], 'original': True}]
+2021-05-03 14:45:16,039 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:45:16,039 | INFO: Initializing with Columns in X 62
+2021-05-03 14:45:16,042 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:45:16,042 | INFO: index 1 - dico value for key method is shift
+2021-05-03 14:45:16,042 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:45:16,042 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:45:16,043 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:45:17,227 | INFO: Columns in X_temp 65
+2021-05-03 14:45:17,229 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-s1', 'NET_FLOWS-s2', 'NET_FLOWS-s3'], dtype='object')
+2021-05-03 14:45:17,229 | INFO: index 0 - dico value for key cols is ['AUM']
+2021-05-03 14:45:17,229 | INFO: index 1 - dico value for key method is rolling
+2021-05-03 14:45:17,229 | INFO: index 2 - dico value for key period is [2, 5, 7]
+2021-05-03 14:45:17,229 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:45:17,229 | INFO: (n) periods [2, 5, 7] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:45:18,475 | INFO: Columns in X_temp 68
+2021-05-03 14:45:18,476 | INFO: New columns added to the dataframe: Index(['AUM-r2', 'AUM-r5', 'AUM-r7'], dtype='object')
+2021-05-03 14:45:18,531 | INFO: All collumns of the final dataset 
+Index(['SRC_UID', 'IS_STRATEGIC', 'ADMINSTRATION_FEES', 'MANAGEMENT_FEES',
+       'MULTI_MANAGER_STRUCTURE', 'SOFTCLOSING', 'CNT_SHARE', 'QUANTITY',
+       'IN_FLOWS', 'OUT_FLOWS', 'NET_FLOWS', 'AUM', 'BENCH_PERF_1_MONTH',
+       'BENCH_PERF_1_YEAR', 'BENCH_PERF_3_MONTH', 'BENCH_PERF_6_MONTH',
+       'BENCH_VOL_1_MONTH', 'BENCH_VOL_3_MONTH', 'BENCH_VOL_6_MONTH',
+       'BENCH_VOLATILITY_1_YEAR', 'NAV_PERF_1_MONTH', 'NAV_PERF_1_YEAR',
+       'NAV_PERF_3_MONTH', 'NAV_PERF_6_MONTH', 'NAV_VOL_1_MONTH',
+       'NAV_VOL_3_MONTH', 'NAV_VOL_6_MONTH', 'NAV_VOLATILITY_1_YEAR',
+       'BENCH_VOL_SINCE_INCEPT', 'NAV_PERF_COMPOUND_CREATION',
+       'NAV_VOL_SINCE_INCEPT', 'FUND_SIZE', 'SUB_FUNDS_SHARE_PARTS',
+       'SUB_FUNDS_SHARE_SIZE_SF_CCY', 'DOWNLOADED_DOCUMENTS', 'WEIGHTED',
+       'PSU_SCORE', 'POSITIVE_RFP', 'EVENT_IMPACT', 'COMPUTED_FLOWS',
+       'CHECKED', 'DIFF_FLOWS', 'THRESHOLD', 'TARGET', 'RISK_LEVEL_VALUE',
+       'PRODUCT_STRATEGY', 'ASSET_NAME', 'FUND_NAME', 'STRATEGY_CAPABILITY',
+       'COUNTRY', 'PSU', 'FLOWS_MONTH', 'FLOWS_YEAR', 'FLOWS_QUARTER',
+       'FUND_AGE', 'BENCH_PERF_SLOPE', 'BENCH_PERF_SLOPE_ERROR',
+       'BENCH_VOL_SLOPE', 'BENCH_VOL_SLOPE_ERROR', 'NAV_PERF_SLOPE',
+       'NAV_PERF_SLOPE_ERROR', 'NAV_VOL_SLOPE', 'NAV_VOL_SLOPE_ERROR'],
+      dtype='object')
+2021-05-03 14:45:18,535 | INFO: END OF RUN
+2021-05-03 14:45:18,541 | INFO: List of features selected for modeling 
+['BENCH_PERF_SLOPE', 'BENCH_PERF_SLOPE_ERROR', 'BENCH_VOL_SLOPE', 'BENCH_VOL_SLOPE_ERROR', 'NAV_PERF_SLOPE', 'NAV_PERF_SLOPE_ERROR', 'NAV_VOL_SLOPE', 'NAV_VOL_SLOPE_ERROR', 'NET_FLOWS-s1', 'NET_FLOWS-s2', 'NET_FLOWS-s3', 'AUM-r2', 'AUM-r5', 'AUM-r7', 'TARGET', 'FLOWS_YEAR', 'FLOWS_MONTH', 'SRC_UID'] with 8902 rows
+2021-05-03 14:49:19,800 | INFO: 
+2021-05-03 14:49:19,801 | INFO: ***************************************************************************************************
+2021-05-03 14:49:19,802 | INFO: ***                                                                                             ***
+2021-05-03 14:49:19,803 | INFO: ***   NEW RUN                                                                                   ***
+2021-05-03 14:49:19,803 | INFO: ***                                                                                             ***
+2021-05-03 14:49:19,803 | INFO: ***************************************************************************************************
+2021-05-03 14:49:19,804 | INFO: I start to run your Notebook ! -- Good Luck :-) It is:  05/03/2021, 14:49:19
+2021-05-03 14:49:19,969 | INFO: 9891 rows and 57 columns read in the CSV file
+2021-05-03 14:50:13,375 | INFO: After splitting the columns the difference will be my TARGET feature: ['TARGET', 'CHECKED', 'COMPUTED_FLOWS', 'DIFF_FLOWS']
+2021-05-03 14:50:14,480 | WARNING: Unable to drop flows columns
+2021-05-03 14:50:14,596 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'shift', 'period': [1, 2, 3, 6], 'original': True}]
+2021-05-03 14:50:14,597 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:50:14,597 | INFO: Initializing with Columns in X 9
+2021-05-03 14:50:14,598 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:50:14,599 | INFO: index 1 - dico value for key method is shift
+2021-05-03 14:50:14,600 | INFO: index 2 - dico value for key period is [1, 2, 3, 6]
+2021-05-03 14:50:14,600 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:50:14,601 | INFO: (n) periods [1, 2, 3, 6] for the skew method is [0.8, 0.6, 0.3999999999999999, 0.19999999999999996, 0.0]
+2021-05-03 14:50:16,162 | INFO: Columns in X_temp 13
+2021-05-03 14:50:16,163 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-s1', 'NET_FLOWS-s2', 'NET_FLOWS-s3', 'NET_FLOWS-s6'], dtype='object')
+2021-05-03 14:50:16,380 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'rolling', 'period': [1, 2, 3, 6], 'original': True}]
+2021-05-03 14:50:16,380 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:50:16,381 | INFO: Initializing with Columns in X 9
+2021-05-03 14:50:16,382 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:50:16,383 | INFO: index 1 - dico value for key method is rolling
+2021-05-03 14:50:16,383 | INFO: index 2 - dico value for key period is [1, 2, 3, 6]
+2021-05-03 14:50:16,383 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:50:16,384 | INFO: (n) periods [1, 2, 3, 6] for the skew method is [0.8, 0.6, 0.3999999999999999, 0.19999999999999996, 0.0]
+2021-05-03 14:50:17,989 | INFO: Columns in X_temp 13
+2021-05-03 14:50:17,990 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-r1', 'NET_FLOWS-r2', 'NET_FLOWS-r3', 'NET_FLOWS-r6'], dtype='object')
+2021-05-03 14:50:18,225 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'expanding', 'period': [1, 2, 3, 6], 'original': True}]
+2021-05-03 14:50:18,225 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:50:18,226 | INFO: Initializing with Columns in X 9
+2021-05-03 14:50:18,227 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:50:18,227 | INFO: index 1 - dico value for key method is expanding
+2021-05-03 14:50:18,227 | INFO: index 2 - dico value for key period is [1, 2, 3, 6]
+2021-05-03 14:50:18,227 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:50:18,227 | INFO: (n) periods [1, 2, 3, 6] for the skew method is [0.8, 0.6, 0.3999999999999999, 0.19999999999999996, 0.0]
+2021-05-03 14:50:19,817 | INFO: Columns in X_temp 13
+2021-05-03 14:50:19,818 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-x1', 'NET_FLOWS-x2', 'NET_FLOWS-x3', 'NET_FLOWS-x6'], dtype='object')
+2021-05-03 14:50:20,119 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'ewm', 'period': [1, 2, 3, 6], 'original': True}]
+2021-05-03 14:50:20,119 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:50:20,120 | INFO: Initializing with Columns in X 9
+2021-05-03 14:50:20,121 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:50:20,121 | INFO: index 1 - dico value for key method is ewm
+2021-05-03 14:50:20,121 | INFO: index 2 - dico value for key period is [1, 2, 3, 6]
+2021-05-03 14:50:20,121 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:50:20,121 | INFO: (n) periods [1, 2, 3, 6] for the skew method is [0.8, 0.6, 0.3999999999999999, 0.19999999999999996, 0.0]
+2021-05-03 14:50:21,601 | INFO: Columns in X_temp 13
+2021-05-03 14:50:21,602 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-e1', 'NET_FLOWS-e2', 'NET_FLOWS-e3', 'NET_FLOWS-e6'], dtype='object')
+2021-05-03 14:52:02,209 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NAV_PERF_SLOPE'], 'method': 'shift', 'period': [1, 2, 3, 6, 12], 'original': True}]
+2021-05-03 14:52:02,209 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:52:02,210 | INFO: Initializing with Columns in X 62
+2021-05-03 14:52:02,212 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-03 14:52:02,212 | INFO: index 1 - dico value for key method is shift
+2021-05-03 14:52:02,212 | INFO: index 2 - dico value for key period is [1, 2, 3, 6, 12]
+2021-05-03 14:52:02,212 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:02,212 | INFO: (n) periods [1, 2, 3, 6, 12] for the skew method is [0.8333333333333334, 0.6666666666666667, 0.5, 0.33333333333333337, 0.16666666666666674, 0.0]
+2021-05-03 14:52:04,098 | INFO: Columns in X_temp 67
+2021-05-03 14:52:04,100 | INFO: New columns added to the dataframe: Index(['NAV_PERF_SLOPE-s1', 'NAV_PERF_SLOPE-s2', 'NAV_PERF_SLOPE-s3',
+       'NAV_PERF_SLOPE-s6', 'NAV_PERF_SLOPE-s12'],
+      dtype='object')
+2021-05-03 14:52:06,249 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NAV_PERF_SLOPE'], 'method': 'rolling', 'period': [1, 2, 3, 6, 12], 'original': True}]
+2021-05-03 14:52:06,250 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:52:06,250 | INFO: Initializing with Columns in X 62
+2021-05-03 14:52:06,253 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-03 14:52:06,253 | INFO: index 1 - dico value for key method is rolling
+2021-05-03 14:52:06,253 | INFO: index 2 - dico value for key period is [1, 2, 3, 6, 12]
+2021-05-03 14:52:06,253 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:06,253 | INFO: (n) periods [1, 2, 3, 6, 12] for the skew method is [0.8333333333333334, 0.6666666666666667, 0.5, 0.33333333333333337, 0.16666666666666674, 0.0]
+2021-05-03 14:52:08,212 | INFO: Columns in X_temp 67
+2021-05-03 14:52:08,213 | INFO: New columns added to the dataframe: Index(['NAV_PERF_SLOPE-r1', 'NAV_PERF_SLOPE-r2', 'NAV_PERF_SLOPE-r3',
+       'NAV_PERF_SLOPE-r6', 'NAV_PERF_SLOPE-r12'],
+      dtype='object')
+2021-05-03 14:52:08,539 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NAV_PERF_SLOPE'], 'method': 'expanding', 'period': [1, 2, 3, 6, 12], 'original': True}]
+2021-05-03 14:52:08,539 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:52:08,539 | INFO: Initializing with Columns in X 62
+2021-05-03 14:52:08,541 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-03 14:52:08,541 | INFO: index 1 - dico value for key method is expanding
+2021-05-03 14:52:08,541 | INFO: index 2 - dico value for key period is [1, 2, 3, 6, 12]
+2021-05-03 14:52:08,541 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:08,541 | INFO: (n) periods [1, 2, 3, 6, 12] for the skew method is [0.8333333333333334, 0.6666666666666667, 0.5, 0.33333333333333337, 0.16666666666666674, 0.0]
+2021-05-03 14:52:10,490 | INFO: Columns in X_temp 67
+2021-05-03 14:52:10,491 | INFO: New columns added to the dataframe: Index(['NAV_PERF_SLOPE-x1', 'NAV_PERF_SLOPE-x2', 'NAV_PERF_SLOPE-x3',
+       'NAV_PERF_SLOPE-x6', 'NAV_PERF_SLOPE-x12'],
+      dtype='object')
+2021-05-03 14:52:10,911 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NAV_PERF_SLOPE'], 'method': 'ewm', 'period': [1, 2, 3, 6, 12], 'original': True}]
+2021-05-03 14:52:10,911 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:52:10,911 | INFO: Initializing with Columns in X 62
+2021-05-03 14:52:10,913 | INFO: index 0 - dico value for key cols is ['NAV_PERF_SLOPE']
+2021-05-03 14:52:10,913 | INFO: index 1 - dico value for key method is ewm
+2021-05-03 14:52:10,913 | INFO: index 2 - dico value for key period is [1, 2, 3, 6, 12]
+2021-05-03 14:52:10,913 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:10,913 | INFO: (n) periods [1, 2, 3, 6, 12] for the skew method is [0.8333333333333334, 0.6666666666666667, 0.5, 0.33333333333333337, 0.16666666666666674, 0.0]
+2021-05-03 14:52:12,704 | INFO: Columns in X_temp 67
+2021-05-03 14:52:12,705 | INFO: New columns added to the dataframe: Index(['NAV_PERF_SLOPE-e1', 'NAV_PERF_SLOPE-e2', 'NAV_PERF_SLOPE-e3',
+       'NAV_PERF_SLOPE-e6', 'NAV_PERF_SLOPE-e12'],
+      dtype='object')
+2021-05-03 14:52:24,268 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['PSU'], 'method': 'rolling', 'period': [1, 2, 3], 'original': True}]
+2021-05-03 14:52:24,268 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:52:24,268 | INFO: Initializing with Columns in X 6
+2021-05-03 14:52:24,269 | INFO: index 0 - dico value for key cols is ['PSU']
+2021-05-03 14:52:24,269 | INFO: index 1 - dico value for key method is rolling
+2021-05-03 14:52:24,269 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:52:24,269 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:24,269 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:52:25,468 | INFO: Columns in X_temp 9
+2021-05-03 14:52:25,469 | INFO: New columns added to the dataframe: Index(['PSU-r1', 'PSU-r2', 'PSU-r3'], dtype='object')
+2021-05-03 14:52:25,640 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['PSU'], 'method': 'expanding', 'period': [1, 2, 3], 'original': True}]
+2021-05-03 14:52:25,640 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:52:25,640 | INFO: Initializing with Columns in X 6
+2021-05-03 14:52:25,641 | INFO: index 0 - dico value for key cols is ['PSU']
+2021-05-03 14:52:25,641 | INFO: index 1 - dico value for key method is expanding
+2021-05-03 14:52:25,641 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:52:25,641 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:25,641 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:52:26,852 | INFO: Columns in X_temp 9
+2021-05-03 14:52:26,853 | INFO: New columns added to the dataframe: Index(['PSU-x1', 'PSU-x2', 'PSU-x3'], dtype='object')
+2021-05-03 14:52:27,020 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['PSU'], 'method': 'split', 'period': [1, 2, 3], 'original': True}]
+2021-05-03 14:52:27,020 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:52:27,021 | INFO: Initializing with Columns in X 6
+2021-05-03 14:52:27,021 | INFO: index 0 - dico value for key cols is ['PSU']
+2021-05-03 14:52:27,021 | INFO: index 1 - dico value for key method is split
+2021-05-03 14:52:27,021 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:52:27,021 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:27,022 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:52:27,044 | INFO: Columns in X_temp 6
+2021-05-03 14:52:27,044 | INFO: New columns added to the dataframe: Index([], dtype='object')
+2021-05-03 14:52:27,210 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['PSU'], 'method': 'ewm', 'period': [1, 2, 3], 'original': True}]
+2021-05-03 14:52:27,210 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:52:27,210 | INFO: Initializing with Columns in X 6
+2021-05-03 14:52:27,211 | INFO: index 0 - dico value for key cols is ['PSU']
+2021-05-03 14:52:27,211 | INFO: index 1 - dico value for key method is ewm
+2021-05-03 14:52:27,211 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:52:27,211 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:27,211 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:52:28,332 | INFO: Columns in X_temp 9
+2021-05-03 14:52:28,333 | INFO: New columns added to the dataframe: Index(['PSU-e1', 'PSU-e2', 'PSU-e3'], dtype='object')
+2021-05-03 14:52:30,391 | INFO: Anomaly detected in full dataset
+2021-05-03 14:52:30,392 | INFO:  1    8902
+-1     989
+Name: anomaly, dtype: int64
+2021-05-03 14:52:32,294 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['NET_FLOWS'], 'method': 'shift', 'period': [1, 2, 3], 'original': True}, {'cols': ['AUM'], 'method': 'rolling', 'period': [2, 5, 7], 'original': True}]
+2021-05-03 14:52:32,294 | INFO: -------------------------------------------------------------------------------------------
+2021-05-03 14:52:32,294 | INFO: Initializing with Columns in X 62
+2021-05-03 14:52:32,297 | INFO: index 0 - dico value for key cols is ['NET_FLOWS']
+2021-05-03 14:52:32,297 | INFO: index 1 - dico value for key method is shift
+2021-05-03 14:52:32,298 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-03 14:52:32,298 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:32,298 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:52:33,490 | INFO: Columns in X_temp 65
+2021-05-03 14:52:33,492 | INFO: New columns added to the dataframe: Index(['NET_FLOWS-s1', 'NET_FLOWS-s2', 'NET_FLOWS-s3'], dtype='object')
+2021-05-03 14:52:33,492 | INFO: index 0 - dico value for key cols is ['AUM']
+2021-05-03 14:52:33,492 | INFO: index 1 - dico value for key method is rolling
+2021-05-03 14:52:33,492 | INFO: index 2 - dico value for key period is [2, 5, 7]
+2021-05-03 14:52:33,492 | INFO: index 3 - dico value for key original is True
+2021-05-03 14:52:33,492 | INFO: (n) periods [2, 5, 7] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-03 14:52:34,774 | INFO: Columns in X_temp 68
+2021-05-03 14:52:34,775 | INFO: New columns added to the dataframe: Index(['AUM-r2', 'AUM-r5', 'AUM-r7'], dtype='object')
+2021-05-03 14:52:34,834 | INFO: All collumns of the final dataset 
+Index(['SRC_UID', 'IS_STRATEGIC', 'ADMINSTRATION_FEES', 'MANAGEMENT_FEES',
+       'MULTI_MANAGER_STRUCTURE', 'SOFTCLOSING', 'CNT_SHARE', 'QUANTITY',
+       'IN_FLOWS', 'OUT_FLOWS', 'NET_FLOWS', 'AUM', 'BENCH_PERF_1_MONTH',
+       'BENCH_PERF_1_YEAR', 'BENCH_PERF_3_MONTH', 'BENCH_PERF_6_MONTH',
+       'BENCH_VOL_1_MONTH', 'BENCH_VOL_3_MONTH', 'BENCH_VOL_6_MONTH',
+       'BENCH_VOLATILITY_1_YEAR', 'NAV_PERF_1_MONTH', 'NAV_PERF_1_YEAR',
+       'NAV_PERF_3_MONTH', 'NAV_PERF_6_MONTH', 'NAV_VOL_1_MONTH',
+       'NAV_VOL_3_MONTH', 'NAV_VOL_6_MONTH', 'NAV_VOLATILITY_1_YEAR',
+       'BENCH_VOL_SINCE_INCEPT', 'NAV_PERF_COMPOUND_CREATION',
+       'NAV_VOL_SINCE_INCEPT', 'FUND_SIZE', 'SUB_FUNDS_SHARE_PARTS',
+       'SUB_FUNDS_SHARE_SIZE_SF_CCY', 'DOWNLOADED_DOCUMENTS', 'WEIGHTED',
+       'PSU_SCORE', 'POSITIVE_RFP', 'EVENT_IMPACT', 'COMPUTED_FLOWS',
+       'CHECKED', 'DIFF_FLOWS', 'THRESHOLD', 'TARGET', 'RISK_LEVEL_VALUE',
+       'PRODUCT_STRATEGY', 'ASSET_NAME', 'FUND_NAME', 'STRATEGY_CAPABILITY',
+       'COUNTRY', 'PSU', 'FLOWS_MONTH', 'FLOWS_YEAR', 'FLOWS_QUARTER',
+       'FUND_AGE', 'BENCH_PERF_SLOPE', 'BENCH_PERF_SLOPE_ERROR',
+       'BENCH_VOL_SLOPE', 'BENCH_VOL_SLOPE_ERROR', 'NAV_PERF_SLOPE',
+       'NAV_PERF_SLOPE_ERROR', 'NAV_VOL_SLOPE', 'NAV_VOL_SLOPE_ERROR'],
+      dtype='object')
+2021-05-03 14:52:34,838 | INFO: END OF RUN
+2021-05-03 14:52:34,844 | INFO: List of features selected for modeling 
+['BENCH_PERF_SLOPE', 'BENCH_PERF_SLOPE_ERROR', 'BENCH_VOL_SLOPE', 'BENCH_VOL_SLOPE_ERROR', 'NAV_PERF_SLOPE', 'NAV_PERF_SLOPE_ERROR', 'NAV_VOL_SLOPE', 'NAV_VOL_SLOPE_ERROR', 'NET_FLOWS-s1', 'NET_FLOWS-s2', 'NET_FLOWS-s3', 'AUM-r2', 'AUM-r5', 'AUM-r7', 'TARGET', 'FLOWS_YEAR', 'FLOWS_MONTH', 'SRC_UID'] with 8902 rows

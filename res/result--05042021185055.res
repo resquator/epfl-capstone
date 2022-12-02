@@ -1,0 +1,21 @@
+0,05042021185055,1,Random Forest,"Pipeline(memory=None,
+         steps=[('Scaler',
+                 StandardScaler(copy=True, with_mean=True, with_std=True)),
+                ('Power',
+                 PowerTransformer(copy=True, method='yeo-johnson',
+                                  standardize=True)),
+                ('FOREST',
+                 RandomForestClassifier(bootstrap=True, class_weight=None,
+                                        criterion='gini', max_depth=None,
+                                        max_features='auto',
+                                        max_leaf_nodes=None,
+                                        min_impurity_decrease=0.0,
+                                        min_impurity_split=None,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        n_estimators='warn', n_jobs=None,
+                                        oob_score=False, random_state=42,
+                                        verbose=0, warm_start=False))],
+         verbose=False)","{'FOREST__n_estimators': [100, 200, 500], 'FOREST__max_features': ['auto', 'sqrt'], 'FOREST__max_depth': [2, 5, 10, None], 'FOREST__bootstrap': [True, False]}",0.8583815028901735,"[[205  14   0]
+ [ 30 197  42]
+ [  0  12 192]]","[{'cols': ['IN_FLOWS'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}, {'cols': ['OUT_FLOWS'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}, {'cols': ['NET_FLOWS'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}, {'cols': ['NAV_PERF_1_YEAR'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}, {'cols': ['NAV_PERF_3_MONTH'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}, {'cols': ['NAV_PERF_6_MONTH'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}, {'cols': ['COMPUTED_FLOWS'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}, {'cols': ['FLOWS_QUARTER'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}, {'cols': ['BENCH_VOL_SLOPE_ERROR'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}, {'cols': ['NAV_PERF_SLOPE'], 'method': 'rolling', 'period': [1, 2, 3], 'original': False}]",Fine tuning model 1 MLP Classifier. Nb features 10 selected by SelectKBest

@@ -1,0 +1,1 @@
+[{"cols": ["IN_FLOWS"], "method": "shift", "period": [1,2,3], "original": true},{"cols": ["AUM"], "method": "rolling", "period": [2,5,7], "original": true}]

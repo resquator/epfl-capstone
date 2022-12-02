@@ -1,0 +1,66 @@
+2021-05-06 15:15:02,249 | INFO: 
+2021-05-06 15:15:02,249 | INFO: ***************************************************************************************************
+2021-05-06 15:15:02,249 | INFO: ***                                                                                             ***
+2021-05-06 15:15:02,249 | INFO: ***   NEW RUN                                                                                   ***
+2021-05-06 15:15:02,249 | INFO: ***                                                                                             ***
+2021-05-06 15:15:02,250 | INFO: ***************************************************************************************************
+2021-05-06 15:15:02,250 | INFO: I start to run your Notebook ! -- Good Luck :-) It is:  05/06/2021, 15:15:02
+2021-05-06 15:15:03,820 | INFO: ['NET_FLOWS']
+2021-05-06 15:15:03,820 | INFO: ['NET_FLOWS', 'SRC_UID']
+2021-05-06 15:15:03,822 | INFO: SRC_UID
+2021-05-06 15:15:04,072 | INFO: Baseline for model is 0.48 with a Logistic Regression on a simulation of univariate transformation
+2021-05-06 15:15:04,117 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['IN_FLOWS'], 'method': 'shift', 'period': [1, 2, 3], 'original': True}, {'cols': ['AUM'], 'method': 'rolling', 'period': [2, 5, 7], 'original': True}]
+2021-05-06 15:15:04,117 | INFO: -------------------------------------------------------------------------------------------
+2021-05-06 15:15:04,117 | INFO: Initializing with Columns in X 56
+2021-05-06 15:15:04,119 | INFO: index 0 - dico value for key cols is ['IN_FLOWS']
+2021-05-06 15:15:04,119 | INFO: index 1 - dico value for key method is shift
+2021-05-06 15:15:04,119 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-06 15:15:04,119 | INFO: index 3 - dico value for key original is True
+2021-05-06 15:15:04,119 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-06 15:15:05,260 | INFO: Columns in X_temp 59
+2021-05-06 15:15:05,261 | INFO: New columns added to the dataframe: Index(['IN_FLOWS-s1', 'IN_FLOWS-s2', 'IN_FLOWS-s3'], dtype='object')
+2021-05-06 15:15:05,261 | INFO: index 0 - dico value for key cols is ['AUM']
+2021-05-06 15:15:05,261 | INFO: index 1 - dico value for key method is rolling
+2021-05-06 15:15:05,262 | INFO: index 2 - dico value for key period is [2, 5, 7]
+2021-05-06 15:15:05,262 | INFO: index 3 - dico value for key original is True
+2021-05-06 15:15:05,262 | INFO: (n) periods [2, 5, 7] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-06 15:15:06,445 | INFO: Columns in X_temp 62
+2021-05-06 15:15:06,446 | INFO: New columns added to the dataframe: Index(['AUM-r2', 'AUM-r5', 'AUM-r7'], dtype='object')
+2021-05-06 15:15:06,508 | INFO: Number of NULL value after transformation is 0
+2021-05-06 15:15:06,513 | INFO: List of features selected for modeling 
+['IN_FLOWS-s1', 'IN_FLOWS-s2', 'IN_FLOWS-s3', 'AUM-r2', 'AUM-r5', 'AUM-r7', 'TARGET', 'FLOWS_YEAR', 'FLOWS_MONTH', 'SRC_UID'] with 9891 rows
+2021-05-06 15:15:15,110 | INFO: Score value after transformation is 0.5078
+2021-05-06 15:24:31,817 | INFO: 
+2021-05-06 15:24:31,818 | INFO: ***************************************************************************************************
+2021-05-06 15:24:31,819 | INFO: ***                                                                                             ***
+2021-05-06 15:24:31,819 | INFO: ***   NEW RUN                                                                                   ***
+2021-05-06 15:24:31,820 | INFO: ***                                                                                             ***
+2021-05-06 15:24:31,820 | INFO: ***************************************************************************************************
+2021-05-06 15:24:31,821 | INFO: I start to run your Notebook ! -- Good Luck :-) It is:  05/06/2021, 15:24:31
+2021-05-06 15:24:33,284 | INFO: ['NET_FLOWS']
+2021-05-06 15:24:33,286 | INFO: ['NET_FLOWS', 'SRC_UID']
+2021-05-06 15:24:33,289 | INFO: SRC_UID
+2021-05-06 15:24:33,568 | INFO: Baseline for model is 0.48 with a Logistic Regression on a simulation of univariate transformation
+2021-05-06 15:24:33,614 | INFO: Transformation called with interpolation=True, verbose=False, breakdown-level=SRC_UID and dictionary 
+[{'cols': ['IN_FLOWS'], 'method': 'shift', 'period': [1, 2, 3], 'original': True}, {'cols': ['AUM'], 'method': 'rolling', 'period': [2, 5, 7], 'original': True}]
+2021-05-06 15:24:33,614 | INFO: -------------------------------------------------------------------------------------------
+2021-05-06 15:24:33,615 | INFO: Initializing with Columns in X 56
+2021-05-06 15:24:33,617 | INFO: index 0 - dico value for key cols is ['IN_FLOWS']
+2021-05-06 15:24:33,617 | INFO: index 1 - dico value for key method is shift
+2021-05-06 15:24:33,617 | INFO: index 2 - dico value for key period is [1, 2, 3]
+2021-05-06 15:24:33,617 | INFO: index 3 - dico value for key original is True
+2021-05-06 15:24:33,617 | INFO: (n) periods [1, 2, 3] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-06 15:24:34,761 | INFO: Columns in X_temp 59
+2021-05-06 15:24:34,762 | INFO: New columns added to the dataframe: Index(['IN_FLOWS-s1', 'IN_FLOWS-s2', 'IN_FLOWS-s3'], dtype='object')
+2021-05-06 15:24:34,762 | INFO: index 0 - dico value for key cols is ['AUM']
+2021-05-06 15:24:34,762 | INFO: index 1 - dico value for key method is rolling
+2021-05-06 15:24:34,762 | INFO: index 2 - dico value for key period is [2, 5, 7]
+2021-05-06 15:24:34,762 | INFO: index 3 - dico value for key original is True
+2021-05-06 15:24:34,762 | INFO: (n) periods [2, 5, 7] for the skew method is [0.75, 0.5, 0.25, 0.0]
+2021-05-06 15:24:35,962 | INFO: Columns in X_temp 62
+2021-05-06 15:24:35,963 | INFO: New columns added to the dataframe: Index(['AUM-r2', 'AUM-r5', 'AUM-r7'], dtype='object')
+2021-05-06 15:24:36,030 | INFO: Number of NULL value after transformation is 0
+2021-05-06 15:24:36,036 | INFO: List of features selected for modeling 
+['IN_FLOWS-s1', 'IN_FLOWS-s2', 'IN_FLOWS-s3', 'AUM-r2', 'AUM-r5', 'AUM-r7', 'TARGET', 'FLOWS_YEAR', 'FLOWS_MONTH', 'SRC_UID'] with 9891 rows
+2021-05-06 15:24:44,556 | INFO: Score value after transformation is 0.5078
