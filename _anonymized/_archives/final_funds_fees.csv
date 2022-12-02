@@ -1,0 +1,102 @@
+,Unnamed: 0_x,FUND_NAME,ADMINSTRATION_FEES,MANAGEMENT_FEES,Unnamed: 0_y,MULTI_MANAGER_STRUCTURE,NAME,SOFTCLOSING,SRC_UID,RISK_LEVEL,DATE_SHARE,CNT_SHARE
+0,0,Charadrius tricollaris,0.0011,0.00439286,76,1,Charadrius tricollaris,0.0,189669305873243,Moderate risk,30.01.2012,20
+1,1,Boa constrictor mexicana,0.003,0.013,9,0,Boa constrictor mexicana,1.0,198188413318323,Moderate risk,03.07.2014,11
+2,3,Psophia viridis,0.00195,0.012,10,0,Psophia viridis,0.0,206670770,High risk,27.04.2000,13
+3,4,Alcelaphus buselaphus cokii,0.00173125,0.008375,11,1,Alcelaphus buselaphus cokii,0.0,181701414249,Moderate risk,26.06.2006,18
+4,7,Megaderma spasma,0.00258571,0.01407143,15,0,Megaderma spasma,0.0,206670742,High risk,30.11.1995,14
+5,8,Crotaphytus collaris,0.00042308,0.00263077,18,1,Crotaphytus collaris,0.0,323418458,Low / moderate risk,10.02.1992,8
+6,9,Nucifraga columbiana,0.00024,0.0014,20,0,Nucifraga columbiana,0.0,40232932742,Low / moderate risk,06.11.2003,7
+7,10,Rangifer tarandus,0.0003,0.00128,21,0,Rangifer tarandus,0.0,36740368922,Low / moderate risk,29.08.2003,5
+8,11,Terathopius ecaudatus,0.0002,0.0019,27,0,Terathopius ecaudatus,0.0,210435370127300,Moderate / high risk,28.04.2017,3
+9,16,Terathopius ecaudatus,0.0005,0.01566667,27,0,Terathopius ecaudatus,0.0,210435370127300,Moderate / high risk,28.04.2017,3
+10,12,Lepus townsendii,0.00075,0.00386,22,1,Lepus townsendii,0.0,188703120510450,High risk,12.07.2011,12
+11,115,Lepus townsendii,0.0001,0.00036667,22,1,Lepus townsendii,0.0,188703120510450,High risk,12.07.2011,12
+12,14,Actophilornis africanus,0.00232174,0.01273913,23,1,Actophilornis africanus,0.0,272675524722,High risk,14.05.2007,26
+13,31,Actophilornis africanus,0.0003,0.00098,23,1,Actophilornis africanus,0.0,272675524722,High risk,14.05.2007,26
+14,72,Actophilornis africanus,0.00234667,0.0126,23,1,Actophilornis africanus,0.0,272675524722,High risk,14.05.2007,26
+15,15,Petaurus breviceps,0.00303333,0.01144444,26,0,Petaurus breviceps,0.0,186494805556422,Moderate / high risk,09.04.2010,13
+16,17,Felis wiedi or Leopardus weidi,0.00238235,0.01252941,28,1,Felis wiedi or Leopardus weidi,0.0,206670694,High risk,13.11.1997,19
+17,19,Dicrostonyx groenlandicus,0.00264615,0.01388462,29,0,Dicrostonyx groenlandicus,1.0,197463014939188,Moderate risk,01.05.2014,18
+18,69,Dicrostonyx groenlandicus,0.001,0.0035,29,0,Dicrostonyx groenlandicus,1.0,197463014939188,Moderate risk,01.05.2014,18
+19,21,Halcyon smyrnesis,0.0002,0.00275,30,0,Halcyon smyrnesis,0.0,200109499869465,Moderate risk,09.12.2014,9
+20,114,Halcyon smyrnesis,0.00027692,0.00163077,30,0,Halcyon smyrnesis,0.0,200109499869465,Moderate risk,09.12.2014,9
+21,22,Hystrix cristata,0.001535,0.01075,54,1,Hystrix cristata,0.0,192291882972375,Moderate risk,26.11.2012,31
+22,24,Podargus strigoides,0.0017,0.0115,55,0,Podargus strigoides,0.0,206670764,High risk,07.06.1995,7
+23,133,Podargus strigoides,0.00090769,0.00426923,55,0,Podargus strigoides,0.0,206670764,High risk,07.06.1995,7
+24,25,Plegadis falcinellus,0.00174516,0.00823226,56,1,Plegadis falcinellus,0.0,181703187068,Moderate risk,26.06.2006,41
+25,26,Ardea cinerea,0.00188095,0.01209524,58,0,Ardea cinerea,0.0,206670715,High risk,13.09.1991,22
+26,27,Isoodon obesulus,0.00196,0.01345,59,0,Isoodon obesulus,0.0,189669356346606,High risk,07.06.2012,37
+27,42,Isoodon obesulus,0.00061111,0.00246667,59,0,Isoodon obesulus,0.0,189669356346606,High risk,07.06.2012,37
+28,85,Isoodon obesulus,0.0003,0.005,59,0,Isoodon obesulus,0.0,189669356346606,High risk,07.06.2012,37
+29,28,Eolophus roseicapillus,0.00068667,0.00294667,60,1,Eolophus roseicapillus,0.0,55902523917,High risk,19.03.2004,15
+30,32,Orcinus orca,0.0003,0.00132,63,0,Orcinus orca,0.0,108202450315,Low risk,23.06.2005,5
+31,33,Macaca mulatta,0.0003,0.00254286,65,0,Macaca mulatta,0.0,108207596093,Low risk,23.06.2005,9
+32,35,Choloepus hoffmani,0.00085833,0.004825,34,0,Choloepus hoffmani,0.0,186267307833917,Low / moderate risk,30.06.2010,11
+33,108,Choloepus hoffmani,0.00137273,0.00720909,34,0,Choloepus hoffmani,0.0,186267307833917,Low / moderate risk,30.06.2010,11
+34,36,Sarkidornis melanotos,0.001,0.00544444,37,0,Sarkidornis melanotos,0.0,108219608754,Moderate risk,23.06.2005,3
+35,37,Lutra canadensis,0.00089167,0.0025,41,0,Lutra canadensis,0.0,168720101925,Low / moderate risk,12.05.2006,3
+36,38,Centrocercus urophasianus,0.00167333,0.00903333,43,1,Centrocercus urophasianus,0.0,324918516,Moderate / high risk,27.09.2001,25
+37,39,Choriotis kori,0.00101429,0.00221429,47,1,Choriotis kori,0.0,27160283895,Low / moderate risk,30.04.2003,15
+38,41,Rhea americana,0.00172,0.00796667,49,1,Rhea americana,1.0,189669225079108,Moderate / high risk,30.01.2012,19
+39,43,Canis aureus,0.00063,0.00237,68,1,Canis aureus,0.0,206670716,Moderate / high risk,31.03.1999,12
+40,44,Milvus migrans,0.00182222,0.00855556,70,1,Milvus migrans,0.0,275505523,Moderate / high risk,30.10.1990,13
+41,65,Milvus migrans,0.001,0.0035,70,1,Milvus migrans,0.0,275505523,Moderate / high risk,30.10.1990,13
+42,47,Papilio canadensis,0.00134091,0.00981818,71,1,Papilio canadensis,0.0,206670727,High risk,28.02.1991,25
+43,51,Falco peregrinus,0.0005,0.007,45,0,Falco peregrinus,0.0,181989439245,Low / moderate risk,31.08.2006,8
+44,52,Tamandua tetradactyla,0.00084,0.0055,75,1,Tamandua tetradactyla,0.0,301519260,Moderate risk,23.08.2001,12
+45,53,Dasyurus viverrinus,0.0001,0.0002,115,0,Dasyurus viverrinus,0.0,206670754,Moderate / high risk,12.11.2000,3
+46,116,Dasyurus viverrinus,0.00304615,0.01069231,115,0,Dasyurus viverrinus,0.0,206670754,Moderate / high risk,12.11.2000,3
+47,56,Ourebia ourebi,0.00153939,0.00699697,79,1,Ourebia ourebi,0.0,206670693,Moderate risk,07.10.1997,44
+48,58,Spilogale gracilis,0.00224063,0.01021875,81,1,Spilogale gracilis,0.0,186759829869822,High risk,10.09.2010,37
+49,59,Ephippiorhynchus mycteria,0.0003,0.003,82,0,Ephippiorhynchus mycteria,0.0,52079200642,Moderate / high risk,05.04.2004,6
+50,62,unavailable,0.001,0.005,24,0,unavailable,0.0,206670773,Moderate / high risk,04.12.1996,6
+51,66,Bassariscus astutus,0.002605,0.01375,86,1,Bassariscus astutus,0.0,1134069654772,High risk,31.10.2008,24
+52,67,Melursus ursinus,0.0012,0.00590625,88,1,Melursus ursinus,0.0,186761292782742,Moderate risk,28.06.2010,22
+53,71,Butorides striatus,0.0018,0.0117,89,1,Butorides striatus,0.0,28283084613,High risk,26.05.2003,14
+54,74,Oreamnos americanus,0.00075,0.00386,91,1,Oreamnos americanus,0.0,188703116701652,High risk,12.07.2011,12
+55,75,Lorythaixoides concolor,0.00155,0.00975,92,1,Lorythaixoides concolor,0.0,206670771,High risk,26.06.1996,12
+56,76,Amphibolurus barbatus,0.0007,0.00250714,93,1,Amphibolurus barbatus,0.0,1489764652,Moderate / high risk,06.06.2002,21
+57,79,Himantopus himantopus,0.00240952,0.00966667,94,1,Himantopus himantopus,0.0,206670686,Moderate / high risk,16.02.1999,22
+58,80,Cabassous sp.,0.00203529,0.00970588,95,0,Cabassous sp.,0.0,206670692,Moderate / high risk,24.09.1997,18
+59,81,Alligator mississippiensis,0.0005,0.0015,127,0,Alligator mississippiensis,0.0,206670813,Moderate / high risk,18.02.2000,3
+60,82,Chloephaga melanoptera,0.00181176,0.00952941,105,0,Chloephaga melanoptera,0.0,573917296406,Moderate risk,26.11.2007,2
+61,83,Laniaurius atrococcineus,0.0003,0.00716667,98,0,Laniaurius atrococcineus,0.0,40234253942,Low / moderate risk,06.11.2003,5
+62,84,Alouatta seniculus,0.0003,0.0065,100,0,Alouatta seniculus,0.0,40234001221,Moderate risk,06.11.2003,6
+63,86,Trachyphonus vaillantii,0.00298571,0.01242857,78,0,Trachyphonus vaillantii,0.0,898428021820,Moderate risk,17.06.2008,2
+64,87,Hystrix indica,0.00081818,0.00940909,14,0,Hystrix indica,0.0,189395860675734,High risk,03.11.2011,11
+65,147,Hystrix indica,0.0001,0.0,14,0,Hystrix indica,0.0,189395860675734,High risk,03.11.2011,11
+66,88,Vanellus sp.,0.00137778,0.00858333,113,1,Vanellus sp.,0.0,194309785360951,Moderate risk,21.08.2013,21
+67,92,Lycosa godeffroyi,0.00226154,0.01261538,116,1,Lycosa godeffroyi,0.0,880886802006,High risk,28.05.2009,17
+68,94,Columba palumbus,0.00067857,0.00255,117,1,Columba palumbus,0.0,1489765858,Moderate / high risk,06.06.2002,14
+69,95,Deroptyus accipitrinus,0.00022857,0.00222857,119,0,Deroptyus accipitrinus,0.0,1676124906944,Moderate / high risk,30.09.2009,14
+70,96,Dendrocitta vagabunda,0.0012,0.00625,120,1,Dendrocitta vagabunda,0.0,206670760,Moderate risk,18.08.1993,7
+71,98,Canis mesomelas,0.00258235,0.01347059,138,1,Canis mesomelas,0.0,105401395916,High risk,31.05.2005,18
+72,99,Tragelaphus strepsiceros,0.00156,0.0134,136,0,Tragelaphus strepsiceros,0.0,400089571,Moderate / high risk,31.12.2001,2
+73,100,Eudyptula minor,0.00161818,0.00677273,141,1,Eudyptula minor,0.0,1461078666,Moderate / high risk,30.09.2002,11
+74,101,Ceratotherium simum,0.00165789,0.00857895,142,1,Ceratotherium simum,0.0,192290937586348,Moderate / high risk,30.11.2012,31
+75,103,Cacatua tenuirostris,0.001,0.003,118,0,Cacatua tenuirostris,0.0,206670705,Moderate / high risk,15.10.1998,4
+76,104,Upupa epops,0.002485,0.01335,143,1,Upupa epops,1.0,203221423898215,High risk,07.10.2015,23
+77,105,Spermophilus lateralis,0.00075,0.00386,144,1,Spermophilus lateralis,0.0,188703129863464,High risk,12.07.2011,12
+78,106,Tyto novaehollandiae,0.00194706,0.01170588,145,0,Tyto novaehollandiae,0.0,638750702637,High risk,11.01.2008,18
+79,107,Geococcyx californianus,0.00241176,0.01252941,146,1,Geococcyx californianus,1.0,207934051132,High risk,31.10.2006,18
+80,109,Suricata suricatta,0.00193182,0.00734091,148,1,Suricata suricatta,0.0,880880278933,Moderate risk,16.06.2008,27
+81,110,Macaca fuscata,0.00018,0.00045,97,0,Macaca fuscata,0.0,188803777670426,Moderate risk,23.06.2011,15
+82,111,Bugeranus caruncalatus,0.00027,0.00087,152,1,Bugeranus caruncalatus,0.0,206670690,Low risk,09.01.1998,10
+83,112,Phaethon aethereus,0.000275,0.001175,155,0,Phaethon aethereus,0.0,455157311,Low risk,15.03.2002,6
+84,113,Papio ursinus,0.00026,0.00062,156,1,Papio ursinus,0.0,409790534092,Low risk,06.07.2007,6
+85,117,Gerbillus sp.,0.00252258,0.01477419,161,1,Gerbillus sp.,0.0,186711785308213,Moderate / high risk,12.05.2010,38
+86,118,Bucephala clangula,0.0002,0.0002,162,0,Bucephala clangula,0.0,737766433094,Low risk,14.03.2008,5
+87,119,Anthropoides paradisea,0.00027778,0.00043333,163,1,Anthropoides paradisea,0.0,880923451687,Low risk,16.06.2008,6
+88,120,Varanus komodensis,0.00027778,0.00091111,166,1,Varanus komodensis,0.0,880930580959,Low risk,16.06.2008,7
+89,124,Panthera pardus,0.0007,0.00825,31,0,Panthera pardus,0.0,656756747842,Moderate / high risk,28.03.2008,5
+90,125,Cordylus giganteus,0.00016667,0.00075,64,0,Cordylus giganteus,0.0,108203096943,Low risk,23.06.2005,5
+91,127,Ursus arctos,0.00025,0.004375,170,0,Ursus arctos,0.0,189654246454691,Moderate / high risk,25.11.2011,9
+92,128,Axis axis,0.0003,0.0015,171,0,Axis axis,0.0,206670739,Moderate / high risk,13.03.2000,6
+93,129,Physignathus cocincinus,0.0003,0.0085,172,0,Physignathus cocincinus,1.0,206670711,High risk,13.01.1994,5
+94,132,Lamprotornis nitens,0.00228667,0.01206667,173,1,Lamprotornis nitens,0.0,656760542396,High risk,29.09.2008,17
+95,136,Echimys chrysurus,0.00167368,0.00828947,5,0,Echimys chrysurus,0.0,537115818972,Low / moderate risk,31.10.2007,13
+96,137,Cereopsis novaehollandiae,0.000805,0.00246,181,1,Cereopsis novaehollandiae,0.0,206670721,Moderate / high risk,13.10.1999,24
+97,138,Pelecanus occidentalis,0.00095,0.00283333,132,0,Pelecanus occidentalis,0.0,206670734,High risk,18.02.2000,3
+98,139,Mustela nigripes,0.00085,0.0025,184,0,Mustela nigripes,0.0,1451747082532,Low / moderate risk,26.02.2009,2
+99,140,Ovis canadensis,0.00241176,0.01252941,189,1,Ovis canadensis,1.0,206670723,High risk,19.01.2000,19
+100,141,Eumetopias jubatus,0.0001,0.001,39,0,Eumetopias jubatus,0.0,1540205459539,Moderate risk,06.04.2009,6

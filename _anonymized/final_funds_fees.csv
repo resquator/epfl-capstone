@@ -1,0 +1,98 @@
+,Unnamed: 0_x,FUND_NAME,ADMINSTRATION_FEES,MANAGEMENT_FEES,Unnamed: 0_y,MULTI_MANAGER_STRUCTURE,NAME,SOFTCLOSING,SRC_UID,RISK_LEVEL,DATE_SHARE,CNT_SHARE,Strategy Capability,Capability IS Strategic
+0,1,Balearica pavonina,0.003,0.013,0,0,Balearica pavonina,1.0,198188413318323,Moderate risk,03.07.2014,11,Absolute Return,Yes
+1,3,Gekko gecko,0.00195,0.012,1,0,Gekko gecko,0.0,206670770,High risk,27.04.2000,13,Emerging Markets,Yes
+2,4,Lepilemur rufescens,0.00173125,0.008375,2,1,Lepilemur rufescens,0.0,181701414249,Moderate risk,26.06.2006,18,Emerging Markets,Yes
+3,6,Canis aureus,0.00303333,0.01008333,51,0,Canis aureus,0.0,186614022288995,High risk,01.10.2010,13,Absolute Return,Yes
+4,86,Canis aureus,0.00298571,0.01242857,51,0,Canis aureus,0.0,186614022288995,High risk,01.10.2010,13,Absolute Return,Yes
+5,7,Echimys chrysurus,0.00258571,0.01407143,3,0,Echimys chrysurus,0.0,206670742,High risk,30.11.1995,14,Thematic,Yes
+6,8,Melophus lathami,0.00042308,0.00263077,4,1,Melophus lathami,0.0,323418458,Low / moderate risk,10.02.1992,8,Core Bonds,No
+7,9,Boa constrictor mexicana,0.00024,0.0014,5,0,Boa constrictor mexicana,0.0,40232932742,Low / moderate risk,06.11.2003,7,Core Bonds,No
+8,10,Psophia viridis,0.0003,0.00128,6,0,Psophia viridis,0.0,36740368922,Low / moderate risk,29.08.2003,5,Core Bonds,No
+9,30,Psophia viridis,0.00018,0.001,6,0,Psophia viridis,0.0,36740368922,Low / moderate risk,29.08.2003,5,Core Bonds,No
+10,12,Alcelaphus buselaphus cokii,0.00075,0.00386,7,1,Alcelaphus buselaphus cokii,0.0,188703120510450,High risk,12.07.2011,12,Emerging Markets,Yes
+11,14,Antidorcas marsupialis,0.00232174,0.01273913,8,1,Antidorcas marsupialis,0.0,272675524722,High risk,14.05.2007,26,Thematic,Yes
+12,15,Hystrix indica,0.00303333,0.01144444,9,0,Hystrix indica,0.0,186494805556422,Moderate / high risk,09.04.2010,13,Absolute Return,Yes
+13,16,Megaderma spasma,0.0005,0.01566667,10,0,Megaderma spasma,0.0,210435370127300,Moderate / high risk,28.04.2017,3,Absolute Return,Yes
+14,17,Marmota flaviventris,0.00238235,0.01252941,11,1,Marmota flaviventris,0.0,206670694,High risk,13.11.1997,19,Thematic,Yes
+15,19,Dicrurus adsimilis,0.00264615,0.01388462,12,0,Dicrurus adsimilis,1.0,197463014939188,Moderate risk,01.05.2014,18,Absolute Return,Yes
+16,21,Crotaphytus collaris,0.0002,0.00275,13,0,Crotaphytus collaris,0.0,200109499869465,Moderate risk,09.12.2014,9,Multi Asset,Yes
+17,22,Petaurus breviceps,0.001535,0.01075,21,1,Petaurus breviceps,0.0,192291882972375,Moderate risk,26.11.2012,31,Emerging Markets,Yes
+18,24,Terathopius ecaudatus,0.0017,0.0115,22,0,Terathopius ecaudatus,0.0,206670764,High risk,07.06.1995,7,Emerging Markets,Yes
+19,25,Felis wiedi or Leopardus weidi,0.00174516,0.00823226,23,1,Felis wiedi or Leopardus weidi,0.0,181703187068,Moderate risk,26.06.2006,41,Emerging Markets,Yes
+20,26,Dicrostonyx groenlandicus,0.00188095,0.01209524,24,0,Dicrostonyx groenlandicus,0.0,206670715,High risk,13.09.1991,22,Emerging Markets,Yes
+21,27,Halcyon smyrnesis,0.00196,0.01345,25,0,Halcyon smyrnesis,0.0,189669356346606,High risk,07.06.2012,37,Emerging Markets,Yes
+22,28,Panthera pardus,0.00068667,0.00294667,26,1,Panthera pardus,0.0,55902523917,High risk,19.03.2004,15,Emerging Markets,Yes
+23,31,Crotalus cerastes,0.0003,0.00098,27,0,Crotalus cerastes,0.0,108193333943,Low risk,23.06.2005,5,Money Market,No
+24,32,Choloepus hoffmani,0.0003,0.00132,28,0,Choloepus hoffmani,0.0,108202450315,Low risk,23.06.2005,5,Money Market,No
+25,87,Choloepus hoffmani,0.00081818,0.00940909,28,0,Choloepus hoffmani,0.0,108202450315,Low risk,23.06.2005,5,Money Market,No
+26,33,Sarkidornis melanotos,0.0003,0.00254286,29,0,Sarkidornis melanotos,0.0,108207596093,Low risk,23.06.2005,9,Money Market,No
+27,78,Sarkidornis melanotos,0.00016667,0.00066667,29,0,Sarkidornis melanotos,0.0,108207596093,Low risk,23.06.2005,9,Money Market,No
+28,35,Nucifraga columbiana,0.00085833,0.004825,14,0,Nucifraga columbiana,0.0,186267307833917,Low / moderate risk,30.06.2010,11,Core Bonds,No
+29,36,Rangifer tarandus,0.001,0.00544444,16,1,Rangifer tarandus,0.0,206670722,Moderate risk,18.11.1999,27,Credit,No
+30,45,Rangifer tarandus,0.00026,0.0014,16,1,Rangifer tarandus,0.0,206670722,Moderate risk,18.11.1999,27,Credit,No
+31,37,Lepus townsendii,0.00089167,0.0025,17,1,Lepus townsendii,0.0,168413682951,Low / moderate risk,12.05.2006,15,Core Bonds,No
+32,38,Actophilornis africanus,0.00167333,0.00903333,18,1,Actophilornis africanus,0.0,324918516,Moderate / high risk,27.09.2001,25,Credit,No
+33,79,Actophilornis africanus,0.00240952,0.00966667,18,1,Actophilornis africanus,0.0,324918516,Moderate / high risk,27.09.2001,25,Credit,No
+34,113,Actophilornis africanus,0.00026,0.00062,18,1,Actophilornis africanus,0.0,324918516,Moderate / high risk,27.09.2001,25,Credit,No
+35,39,unavailable,0.00101429,0.00221429,19,1,unavailable,0.0,27160283895,Low / moderate risk,30.04.2003,15,Credit,No
+36,41,Litrocranius walleri,0.00172,0.00796667,20,1,Litrocranius walleri,1.0,189669225079108,Moderate / high risk,30.01.2012,19,Credit,No
+37,42,Eumetopias jubatus,0.00061111,0.00246667,30,1,Eumetopias jubatus,0.0,182009288255,Moderate / high risk,29.06.2006,9,Indexed Equities,No
+38,43,Lutra canadensis,0.00063,0.00237,31,1,Lutra canadensis,0.0,206670716,Moderate / high risk,31.03.1999,12,Indexed Equities,No
+39,44,Centrocercus urophasianus,0.00182222,0.00855556,32,1,Centrocercus urophasianus,0.0,275505523,Moderate / high risk,30.10.1990,13,Core & Specialist Equities,No
+40,148,Centrocercus urophasianus,0.0,0.0,32,1,Centrocercus urophasianus,0.0,275505523,Moderate / high risk,30.10.1990,13,Core & Specialist Equities,No
+41,47,Falco peregrinus,0.00134091,0.00981818,33,1,Falco peregrinus,0.0,206670727,High risk,28.02.1991,25,Core & Specialist Equities,No
+42,52,Choriotis kori,0.00084,0.0055,34,1,Choriotis kori,0.0,301519260,Moderate risk,23.08.2001,12,Core Bonds,No
+43,56,Rhea americana,0.00153939,0.00699697,35,1,Rhea americana,0.0,206670693,Moderate risk,07.10.1997,44,Emerging Markets,Yes
+44,58,Haematopus ater,0.00224063,0.01021875,36,1,Haematopus ater,0.0,186759829869822,High risk,10.09.2010,37,Thematic,Yes
+45,59,Castor fiber,0.0003,0.003,37,0,Castor fiber,0.0,52079200642,Moderate / high risk,05.04.2004,6,Indexed Equities,No
+46,102,Castor fiber,0.000175,0.001125,37,0,Castor fiber,0.0,52079200642,Moderate / high risk,05.04.2004,6,Indexed Equities,No
+47,63,Tamandua tetradactyla,0.001,0.00466667,58,1,Tamandua tetradactyla,0.0,189669396589741,High risk,30.03.2012,16,Active Quant,No
+48,99,Tamandua tetradactyla,0.00156,0.0134,58,1,Tamandua tetradactyla,0.0,189669396589741,High risk,30.03.2012,16,Active Quant,No
+49,66,Hystrix cristata,0.002605,0.01375,38,1,Hystrix cristata,0.0,1134069654772,High risk,31.10.2008,24,Thematic,Yes
+50,67,Podargus strigoides,0.0012,0.00590625,39,1,Podargus strigoides,0.0,186761292782742,Moderate risk,28.06.2010,22,Credit,No
+51,71,Plegadis falcinellus,0.0018,0.0117,40,1,Plegadis falcinellus,0.0,28283084613,High risk,26.05.2003,14,Emerging Markets,Yes
+52,72,Ardea cinerea,0.00234667,0.0126,41,1,Ardea cinerea,0.0,63446153971,High risk,30.06.2004,15,Thematic,Yes
+53,74,Isoodon obesulus,0.00075,0.00386,42,1,Isoodon obesulus,0.0,188703116701652,High risk,12.07.2011,12,Emerging Markets,Yes
+54,82,Isoodon obesulus,0.00181176,0.00952941,42,1,Isoodon obesulus,0.0,188703116701652,High risk,12.07.2011,12,Emerging Markets,Yes
+55,90,Isoodon obesulus,0.00018,0.0008,42,1,Isoodon obesulus,0.0,188703116701652,High risk,12.07.2011,12,Emerging Markets,Yes
+56,136,Isoodon obesulus,0.00167368,0.00828947,42,1,Isoodon obesulus,0.0,188703116701652,High risk,12.07.2011,12,Emerging Markets,Yes
+57,75,Eolophus roseicapillus,0.00155,0.00975,43,1,Eolophus roseicapillus,0.0,206670771,High risk,26.06.1996,12,Emerging Markets,Yes
+58,76,Cyrtodactylus louisiadensis,0.0007,0.00250714,44,1,Cyrtodactylus louisiadensis,0.0,1489764652,Moderate / high risk,06.06.2002,21,Indexed Equities,No
+59,80,Orcinus orca,0.00203529,0.00970588,46,0,Orcinus orca,0.0,206670692,Moderate / high risk,24.09.1997,18,Core & Specialist Equities,No
+60,83,Cordylus giganteus,0.0003,0.00716667,47,0,Cordylus giganteus,0.0,40234253942,Low / moderate risk,06.11.2003,5,Multi Asset,Yes
+61,84,Macaca mulatta,0.0003,0.0065,48,0,Macaca mulatta,0.0,40234001221,Moderate risk,06.11.2003,6,Multi Asset,Yes
+62,85,Paradoxurus hermaphroditus,0.0003,0.005,49,0,Paradoxurus hermaphroditus,,213479867994200,Moderate risk,31.10.2017,8,Multi Asset,Yes
+63,88,Numida meleagris,0.00137778,0.00858333,52,1,Numida meleagris,0.0,194309785360951,Moderate risk,21.08.2013,21,Multi Asset,Yes
+64,92,Milvus migrans,0.00226154,0.01261538,53,1,Milvus migrans,0.0,880886802006,High risk,28.05.2009,17,Thematic,Yes
+65,94,Papilio canadensis,0.00067857,0.00255,54,1,Papilio canadensis,0.0,1489765858,Moderate / high risk,06.06.2002,14,Indexed Equities,No
+66,95,Madoqua kirkii,0.00022857,0.00222857,55,0,Madoqua kirkii,0.0,1676124906944,Moderate / high risk,30.09.2009,14,Alternatives,No
+67,138,Madoqua kirkii,0.00095,0.00283333,55,0,Madoqua kirkii,0.0,1676124906944,Moderate / high risk,30.09.2009,14,Alternatives,No
+68,96,Chelodina longicollis,0.0012,0.00625,56,1,Chelodina longicollis,0.0,206670760,Moderate risk,18.08.1993,7,Multi Asset,Yes
+69,98,Rana sp.,0.00258235,0.01347059,57,1,Rana sp.,0.0,105401395916,High risk,31.05.2005,18,Thematic,Yes
+70,100,Charadrius tricollaris,0.00161818,0.00677273,59,1,Charadrius tricollaris,0.0,1461078666,Moderate / high risk,30.09.2002,11,Active Quant,No
+71,126,Charadrius tricollaris,0.00014,0.0006,59,1,Charadrius tricollaris,0.0,1461078666,Moderate / high risk,30.09.2002,11,Active Quant,No
+72,101,Trachyphonus vaillantii,0.00165789,0.00857895,60,1,Trachyphonus vaillantii,0.0,192290937586348,Moderate / high risk,30.11.2012,31,Active Quant,No
+73,104,Ourebia ourebi,0.002485,0.01335,61,1,Ourebia ourebi,1.0,203221423898215,High risk,07.10.2015,23,Thematic,Yes
+74,105,Spilogale gracilis,0.00075,0.00386,62,1,Spilogale gracilis,0.0,188703129863464,High risk,12.07.2011,12,Emerging Markets,Yes
+75,106,Ephippiorhynchus mycteria,0.00194706,0.01170588,63,0,Ephippiorhynchus mycteria,0.0,638750702637,High risk,11.01.2008,18,Emerging Markets,Yes
+76,107,Hymenolaimus malacorhynchus,0.00241176,0.01252941,64,1,Hymenolaimus malacorhynchus,1.0,207934051132,High risk,31.10.2006,18,Thematic,Yes
+77,122,Hymenolaimus malacorhynchus,0.00185357,0.00651786,64,1,Hymenolaimus malacorhynchus,1.0,207934051132,High risk,31.10.2006,18,Thematic,Yes
+78,108,Merops nubicus,0.00137273,0.00720909,65,1,Merops nubicus,0.0,197500691926156,Low / moderate risk,14.05.2014,29,Emerging Markets,Yes
+79,109,Bassariscus astutus,0.00193182,0.00734091,66,1,Bassariscus astutus,0.0,880880278933,Moderate risk,16.06.2008,27,Emerging Markets,Yes
+80,110,Falco mexicanus,0.00018,0.00045,67,0,Falco mexicanus,0.0,218465821,Low risk,29.09.2000,5,Money Market,No
+81,111,Melursus ursinus,0.00027,0.00087,69,1,Melursus ursinus,0.0,206670690,Low risk,09.01.1998,10,Money Market,No
+82,112,Butorides striatus,0.000275,0.001175,71,0,Butorides striatus,0.0,455157311,Low risk,15.03.2002,6,Money Market,No
+83,114,Oreamnos americanus,0.00027692,0.00163077,73,1,Oreamnos americanus,0.0,206670688,Low risk,13.06.1995,12,Money Market,No
+84,115,Lorythaixoides concolor,0.0001,0.00036667,75,0,Lorythaixoides concolor,0.0,196870559488652,Moderate risk,25.06.2014,16,Other,No
+85,117,Amphibolurus barbatus,0.00252258,0.01477419,76,1,Amphibolurus barbatus,0.0,186711785308213,Moderate / high risk,12.05.2010,38,Thematic,Yes
+86,118,Himantopus himantopus,0.0002,0.0002,77,0,Himantopus himantopus,0.0,737766433094,Low risk,14.03.2008,5,Money Market,No
+87,119,Cabassous sp.,0.00027778,0.00043333,78,1,Cabassous sp.,0.0,880923451687,Low risk,16.06.2008,6,Money Market,No
+88,120,Francolinus leucoscepus,0.00027778,0.00091111,80,1,Francolinus leucoscepus,0.0,880930580959,Low risk,16.06.2008,7,Money Market,No
+89,124,Macaca fuscata,0.0007,0.00825,82,0,Macaca fuscata,1.0,437983596250,Moderate / high risk,31.10.2007,4,Core & Specialist Equities,No
+90,127,Laniaurius atrococcineus,0.00025,0.004375,83,0,Laniaurius atrococcineus,0.0,189654246454691,Moderate / high risk,25.11.2011,9,Core & Specialist Equities,No
+91,128,Felis concolor,0.0003,0.0015,84,0,Felis concolor,0.0,206670739,Moderate / high risk,13.03.2000,6,Indexed Equities,No
+92,129,Alouatta seniculus,0.0003,0.0085,85,0,Alouatta seniculus,1.0,206670711,High risk,13.01.1994,5,Core & Specialist Equities,No
+93,132,Tauraco porphyrelophus,0.00228667,0.01206667,86,1,Tauraco porphyrelophus,0.0,656760542396,High risk,29.09.2008,17,Thematic,Yes
+94,137,Myiarchus tuberculifer,0.000805,0.00246,88,1,Myiarchus tuberculifer,0.0,206670721,Moderate / high risk,13.10.1999,24,Indexed Equities,No
+95,139,Chloephaga melanoptera,0.00085,0.0025,90,1,Chloephaga melanoptera,0.0,38326395382,Low / moderate risk,18.09.2003,8,Credit,No
+96,140,Myrmecobius fasciatus,0.00241176,0.01252941,91,1,Myrmecobius fasciatus,1.0,206670723,High risk,19.01.2000,19,Thematic,Yes
